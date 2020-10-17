@@ -20,49 +20,50 @@
 		* password
 	 -->
 		<section class="registration">
-			<form action="#" accept-charset="utf-8">
-				<fieldset>
-					<legend>Registration</legend>
-					<div	class="flex msmall pdsmall">
-						<label	for="firstname">First Name:</label>
-						<input type="text" name="firstname" required>
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="lastname">Last Name:</label>
-						<input type="text" name="lastname" required>
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="age">Age:</label>
-						<input type="number" name="age">
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="dob">Date of Birth:</label>
-						<input type="date" name="dob">
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="soo">State of Origin:</label>
-						<input type="text" name="soo">
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="nationality">Nationality:</label>
-						<input type="text" name="nationality">
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="gender">Gender:</label>
-						<input type="text" name="gender">
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="username">User Name:</label>
-						<input type="text" name="username" required>
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="password">Password:</label>
-						<input type="password" name="password" required>
-					</div>
-					<div	class="flex msmall pdsmall">
-						<input type="submit">
-					</div>
-				</fieldset>
+			<form class="form" action="#" accept-charset="utf-8">
+				<legend class="legend">Registration</legend>
+				<div	class="flex msmall pdsmall">
+					<label	for="firstname">First Name:</label>
+					<input class="pdsmall" type="text" name="firstname" required>
+				</div>
+				<div	class="flex msmall pdsmall">
+					<label	for="lastname">Last Name:</label>
+					<input class="pdsmall" type="text" name="lastname" required>
+				</div>
+				<div	class="flex msmall pdsmall">
+					<label	for="age">Age:</label>
+					<input class="pdsmall" type="number" name="age">
+				</div>
+				<div	class="flex msmall pdsmall">
+					<label	for="dob">Date of Birth:</label>
+					<input class="pdsmall" type="date" name="dob">
+				</div>
+				<div	class="flex msmall pdsmall">
+					<label	for="soo">State of Origin:</label>
+					<input class="pdsmall" type="text" name="soo">
+				</div>
+				<div class="flex msmall pdsmall">
+					<label	for="nationality">Nationality:</label>
+					<input class="pdsmall" type="text" name="nationality">
+				</div>
+				<div	class="flex msmall pdsmall">
+					<label	for="gender">Gender:</label>
+					<select class="pdsmall" name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</div>
+				<div	class="flex msmall pdsmall">
+					<label	for="username">User Name:</label>
+					<input class="pdsmall" type="text" name="username" required>
+				</div>
+				<div	class="flex msmall pdsmall">
+					<label	for="password">Password:</label>
+					<input class="pdsmall" type="password" name="password" required>
+				</div>
+				<div	class="flex msmall pdsmall">
+					<input class="submit" type="submit">
+				</div>
 			</form>
 		</section>
 		<!-- should contain 
@@ -70,21 +71,19 @@
 			* password
 		 -->
 		<section class="login">
-			<form action="#" accept-charset="utf-8">
-				<fieldset>
-					<legend>Log In</legend>
-					<div	class="flex msmall pdsmall">
-						<label	for="username">User Name:</label>
-						<input type="text" name="username" required>
-					</div>
-					<div	class="flex msmall pdsmall">
-						<label	for="password">Password:</label>
-						<input type="password" name="password" required>
-					</div>
-					<div	class="flex msmall pdsmall">
-						<input type="submit">
-					</div>
-				</fieldset>
+			<form class="form" action="#" accept-charset="utf-8">
+				<legend class="legend">Log In</legend>
+				<div class="flex msmall pdsmall">
+					<label	for="username">User Name:</label>
+					<input class="pdsmall" type="text" name="username" required>
+				</div>
+				<div class="flex msmall pdsmall">
+					<label	for="password">Password:</label>
+					<input class="pdsmall" type="password" name="password" required>
+				</div>
+				<div class="flex msmall pdsmall">
+					<input class="submit" type="submit">
+				</div>				
 			</form>
 		</section>
 	</main>

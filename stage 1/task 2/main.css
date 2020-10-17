@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-	width: 100vw;
+	width: 90vw;
 
 	display: flex;
 	flex-direction: column;
@@ -21,13 +21,26 @@ body {
 }
 
 .registration {
-	width: 30vw;
+	width: 400px;
 	margin: 40px 0;
+	box-shadow: 3px 3px 10px;
 }
 
 .login {
-	width: 30vw;
+	width: 400px;
 	margin: 40px 0;
+	box-shadow: 3px 3px 10px;
+}
+
+.form {
+	border: 1px solid grey;
+	border-radius: 6px;
+}
+
+.legend {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 10px;
 }
 
 .msmall {
@@ -41,4 +54,9 @@ body {
 
 .pdsmall {
 	padding: 4px 2px;
+}
+
+.submit {
+	padding: 6px 10px;
+	border-radius: 6px;
 }
