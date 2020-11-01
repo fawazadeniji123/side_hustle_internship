@@ -20,7 +20,7 @@ const calcSalary = (hrsWorked, extraHrs=0, daysWorked=30) => {
 	if (hrsWorked < 4 && extraHrs > 0)
 		return console.warn('Warning :>> extra hrs starts counting when the employee works past 4 hrs a day')
 	const salary = (hrsWorked * 1000) * daysWorked;
-	const extra = (extraHrs * 200) * daysWorked;
+	const extra = (extraHrs * 1200) * daysWorked;
 	const totalSalary = salary + extra;
 
 	return totalSalary.toLocaleString('en-NG', { currency:'NGN', style:'currency' })
